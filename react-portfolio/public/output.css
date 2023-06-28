@@ -699,6 +699,18 @@ video {
   width: 100%;
 }
 
+.w-\[55\%\]{
+  width: 55%;
+}
+
+.w-\[50\%\]{
+  width: 50%;
+}
+
+.w-\[25px\]{
+  width: 25px;
+}
+
 .max-w-\[400px\]{
   max-width: 400px;
 }
@@ -956,6 +968,66 @@ body,
   top: -50%;
 }
 
+.before\:-left-\[2\.5px\]::before{
+  content: var(--tw-content);
+  left: -2.5px;
+}
+
+.before\:-left-\[250px\]::before{
+  content: var(--tw-content);
+  left: -250px;
+}
+
+.before\:-left-\[30px\]::before{
+  content: var(--tw-content);
+  left: -30px;
+}
+
+.before\:-left-\[35px\]::before{
+  content: var(--tw-content);
+  left: -35px;
+}
+
+.before\:-left-\[40px\]::before{
+  content: var(--tw-content);
+  left: -40px;
+}
+
+.before\:-top-\[700px\]::before{
+  content: var(--tw-content);
+  top: -700px;
+}
+
+.before\:-top-\[100px\]::before{
+  content: var(--tw-content);
+  top: -100px;
+}
+
+.before\:-top-\[150px\]::before{
+  content: var(--tw-content);
+  top: -150px;
+}
+
+.before\:-top-\[125px\]::before{
+  content: var(--tw-content);
+  top: -125px;
+}
+
+.before\:-left-\[400px\]::before{
+  content: var(--tw-content);
+  left: -400px;
+}
+
+.before\:-top-\[120px\]::before{
+  content: var(--tw-content);
+  top: -120px;
+}
+
+.before\:-left-\[50px\]::before{
+  content: var(--tw-content);
+  left: -50px;
+}
+
 .before\:z-\[-1\]::before{
   content: var(--tw-content);
   z-index: -1;
@@ -979,6 +1051,11 @@ body,
 .before\:w-\[75\%\]::before{
   content: var(--tw-content);
   width: 75%;
+}
+
+.before\:w-\[75px\]::before{
+  content: var(--tw-content);
+  width: 75px;
 }
 
 .before\:max-w-\[400px\]::before{
