@@ -1,4 +1,4 @@
-//import SocialMediaIcons from "../components/SocialMediaIcons";
+import SocialMediaIcons from "../components/SocialMediaIcons";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
@@ -93,6 +93,20 @@ const Landing = ({ setSelectedPage }) => {
                         Let's talk
                     </div>
                 </AnchorLink>
+            </motion.div>
+
+            <motion.div
+              className="flex mt-5 justify-center md:justify-start"
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ delay: 0.2,duration: 0.5 }}
+              variants={{
+                  hidden: { opacity: 0, x: -50 },
+                  visible: { opacity: 1, x: 0 },
+              }}
+            >
+              <SocialMediaIcons />
             </motion.div>
         </div>
 
