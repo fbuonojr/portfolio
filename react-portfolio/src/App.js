@@ -1,4 +1,5 @@
 import Navbar from "./scenes/Navbar";
+import DotGroup from "./scenes/Dotgroup";
 import { useState, useEffect } from "react";
 import useMediaQuery from "./hooks/useMediaQuery";
 
@@ -26,7 +27,10 @@ function App() {
       />
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
-          <DotGroup />
+          <DotGroup 
+            selectedPage={selectedPage}
+            setSelectedPage={setSelectedPage}
+          />
         )}
       </div>
     </div>
