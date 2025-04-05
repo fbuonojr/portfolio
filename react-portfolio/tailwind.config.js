@@ -24,9 +24,6 @@ module.exports = {
         playfair: ["Playfair Display", "serif"],
         opensans: ["Open Sans", "sans-serif"],
       },
-      content: {
-        brush: "url('./assets/brush.png')",
-      },
     },
     screens: {
       xs: "480px",
