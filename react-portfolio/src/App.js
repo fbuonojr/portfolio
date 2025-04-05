@@ -3,7 +3,6 @@ import DotGroup from "./scenes/Dotgroup";
 import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
 import Projects from "./scenes/Projects";
-import Testimonials from "./scenes/Testimonials";
 import Contact from "./scenes/Contact";
 import Footer from "./scenes/Footer";
 import LineGradient from "./components/LineGradient";
