@@ -32,7 +32,7 @@ const Contact = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-yellow">CONTACT ME</span> TO GET STARTED
+            <span className="text-black">CONTACT ME</span> TO GET STARTED
           </p>
         </div>
       </motion.div>
@@ -50,7 +50,6 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
         </motion.div>
 
         <motion.div
