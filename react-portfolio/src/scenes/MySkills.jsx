@@ -1,4 +1,3 @@
-import LineGradient from "../components/LineGradient";
 import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 
@@ -23,7 +22,6 @@ const MySkills = () => {
                     <p className="font-playfair font-semibold text-4xl mb-5">
                         MY <span className="text-red">SKILLS</span>
                     </p>
-                    <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
                         BLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAHBLAH BLAH
                     </p>
